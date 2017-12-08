@@ -1,0 +1,73 @@
+body {
+	background-color: #FFFAF0;
+}
+
+main {
+	margin-right: 100px;
+	margin-left: 100px; 
+}
+
+.dasmotos-heading {
+	font-family: Helvetica;
+	font-size: 100px;
+	font-weight: bold;
+	color: khaki;
+	text-align: center;
+}
+
+.header {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*
+* The following code styles each (h2) heading, but not including
+* the back-ground colors.
+*/
+
+.brushes, 
+.frames,
+.paint {
+	font-family: Helvetica;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+/*
+* Back-ground styles for each (h2) heading.
+*/
+
+.spring-green {
+	background-color: mediumspringgreen;
+}
+
+.light-coral {
+	background-color: lightcoral;
+}
+
+.paint {
+	background-color: skyblue;
+}
+
+
+/*
+* This code will style each span element within the three 
+* paragraphs.
+*/
+
+.start-price {
+	font-weight: bold;
+	color: blue;
+}
+
+p {
+	font-family: Helvetica;	
+}
+
+span:before {
+	content: "\2713";
+	padding-right: 4px;
+}
